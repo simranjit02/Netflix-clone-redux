@@ -25,7 +25,7 @@ const MovieRows = ({ title, fetchUrl, islargeRow=false }: any) => {
             src={`${base_URL}${islargeRow ?item?.poster_path:item?.backdrop_path}`}
             alt={item?.nmae}
             objectFit="contain"
-            className="hover:scale-110 transition ease-in-out duration-500"
+            className="hover:scale-105 transition ease-in-out duration-500"
             width={600}
             height={500} 
             key={item?.id} 

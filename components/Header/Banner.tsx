@@ -4,7 +4,7 @@ const Banner = ({ movie }: any) => {
   };
   return (
     <div
-      className="h-[28rem]  text-white pt-[74px] z-30 relative"
+      className="h-[28rem] lg:h-[36rem]  text-white pt-[74px] z-30 relative"
       style={{
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundPosition: "center",
